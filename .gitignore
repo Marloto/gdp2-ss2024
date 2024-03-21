@@ -1,0 +1,8 @@
+*.class
+bin
+target
+ggt
+.DS_Store
+.settings
+.project
+.classpath
