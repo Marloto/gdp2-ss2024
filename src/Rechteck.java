@@ -1,13 +1,13 @@
 
-class Rechteck {
+public class Rechteck {
 	double laenge;
 	double breite;
 
-	Rechteck(double l, double b) {
+	public Rechteck(double l, double b) {
 		laenge = l;
 		breite = b;
 	}
-	Rechteck(double l) {
+	public Rechteck(double l) {
 		this(l, l); // muss 1. anweisung
 	}
 
@@ -59,4 +59,17 @@ class Rechteck {
 				example / 10
 		);
 	}
+
+	public String toString() {
+		return "Rechteck " + this.breite + "/" + 
+			this.laenge;
+	}
 }
+
+
+
+
+
+
+
+
