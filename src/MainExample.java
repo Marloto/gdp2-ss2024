@@ -24,6 +24,6 @@ public class MainExample {
 		bar.auszahlen(2);
 		System.out.println(bar.print());
 		
-		Account someAcc1 = new Account();
+		Account someAcc1 = new Account("");
 	}
 }
