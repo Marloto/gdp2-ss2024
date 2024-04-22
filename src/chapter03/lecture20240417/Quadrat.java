@@ -1,4 +1,4 @@
-package chapter03.date20240417;
+package chapter03.lecture20240417;
 
 public class Quadrat extends Rechteck {
 	// für verkettung über vererbung gibt es "super"

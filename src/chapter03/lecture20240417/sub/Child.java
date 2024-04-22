@@ -1,6 +1,6 @@
-package chapter03.date20240417.sub;
+package chapter03.lecture20240417.sub;
 
-import chapter03.date20240417.Base;
+import chapter03.lecture20240417.Base;
 
 public class Child extends Base {
 	private int d;
