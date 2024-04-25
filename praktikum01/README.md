@@ -4,17 +4,18 @@
 
 - Konsolenbasiert: über git-scm.com die Werkzeuge laden, falls nicht vorhanden
 - Alternativ über Eclipse
-- Bei existierenden Projekten:
-  - z.B. Verwendung eines Repos auf Bitbucket, dass leer ist!
-  - "Create new git repo" über Git-Perspektive
-  - Danach Bitbucket öffnen und neues Repo erstellen, wichtig es muss leer sein
-- Vorinitialisierte Projekte im Bitbucket
-  - Erstellen Sie ein nicht leeres Repo auf Bitbucket 
-    und clonen Sie es an einem geeigneten Platz auf dem Rechner
-  - Kopieren Sie im Explorer aus dem Clone-Ordner .git und alle anderen 
-    Dateien in Ihr aktuelles Praktikumsprojekt
-  - Im Eclipse per Rechtsklick Refresh auswählen, anschließend
-    erkennt Eclipse, dass es ein Git-Projekt ist (dies liegt am 
-    .git Ordner)
-
-    
+- Neues Projekt mit README oder/und .gitignore auf BitBucket erzeugen (alternativ GitHub od. GitLab)
+- Zurück zu Eclipse -> Window -> Show Perspective -> Other od. direkt Git
+- Im Git-Perspective, Clone Repository (links, grüner Pfeil auf Zylinder mit Wolke)
+- Clone URI
+- URI einfügen (von BitBucket), rest wird ausgefüllt
+- Access Token von BitBucket notwendig, zusammen mit Username
+- Branch sollte angezeigt werden (sonst ist das Repo nicht initalisiert), meist main
+- Ordner lokal auswählen, nicht im Workspace
+- Repo öffnen und rechtsklick auf Worktree -> show in system explorer
+- Kopieren Sie das aktuelle VA-Projekt in das Repo (zurück in Java-Perspective) und per Rechtsklick Show in -> System explorer
+- Löschen des alten Projektes im Eclipse (nicht den Hacken setzen zum Löschen im System)
+- Rechts Klick Import (od. über File-Menü) "Existing Project into Workspace", Ordner vom Repo auswählen und importieren
+- Rechtsklick auf Projekt -> Team bietet dann alle Möglichkeiten im Git-Kontext
+- .gitignore könnte .classpath, .settings, .project, auf GitIgnore bedeutet, dass das 
+  Projekt auf einem neuen Rechner "erstellt" werden muss und nicht importiert wird
