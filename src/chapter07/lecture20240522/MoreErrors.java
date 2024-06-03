@@ -1,4 +1,4 @@
-package chapter06.lecture20240522;
+package chapter07.lecture20240522;
 
 import java.io.IOException;
 

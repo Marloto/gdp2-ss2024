@@ -1,4 +1,4 @@
-package chapter06.lecture20240515;
+package chapter07.lecture20240515;
 
 import java.io.File;
 import java.io.FileWriter;
