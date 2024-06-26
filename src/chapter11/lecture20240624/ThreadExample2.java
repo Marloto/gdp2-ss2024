@@ -5,7 +5,6 @@ public class ThreadExample2 {
 		// Call-Stack: welche Methoden wurden aufgerufen bis zu einer bestimmten
 		// Anweisung.
 		Example task = new Example();
-		task.run();
 		
 		new Thread(task).start();
 		doSomething();
@@ -20,7 +19,7 @@ public class ThreadExample2 {
 	private static int arr = 0;
 
 	private static void doSomething() {
-		System.out.println("Hello, World!");
+		System.out.println("Hello, World! Ich bin: " + Thread.currentThread().getName());
 		arr = arr + 1;
 	}
 }
